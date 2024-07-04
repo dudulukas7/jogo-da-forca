@@ -49,10 +49,10 @@ int main(){
         system("clear");
     }
     if (acertos==tam){
-        cout << "Voce venceu";
+        cout << "Você venceu!\n";
         
     }else{
-        cout << "perdeu, burro!"; 
+        cout << "Você perdeu! A palavra era: " << palavra << "\n"; 
     }
     return 0;
     
